@@ -7,7 +7,8 @@ gem 'rails', '4.2.5'
 gem 'sass-rails', '~> 5.0'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem "paperclip", "~> 4.3"
-
+gem "paperclip-dropbox", ">= 1.1.7"
+gem "figaro"
 group :production do
   gem 'pg', '~> 0.18.2'
   gem 'rails_12factor'
