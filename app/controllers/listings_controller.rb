@@ -24,7 +24,7 @@ class ListingsController < ApplicationController
   # POST /listings
   # POST /listings.json
   def create
-    @listing = Listing.new(listing_params)
+    @listing = Listing.new(params.require(:listing).permit(:image, :image))
 
     respond_to do |format|
       if @listing.save

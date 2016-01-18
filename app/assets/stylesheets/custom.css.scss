@@ -25,11 +25,11 @@ body {
 }
 
 .center {
-	text-align: center;
+	text-align: right;
 }
 
-.col-md-3:nth-child(4n+1) {
-	clear: left;
+.col-md-3 :nth-child(4n+1) {
+	clear: center;
 }
 
 .col-md-6 {
